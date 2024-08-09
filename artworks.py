@@ -17,7 +17,7 @@ parser.add_argument('-s', '--search', type=str,
 parser.add_argument('-f', '--fields', type=str, default='title,id,artist_display,image_id,place_of_origin,date_start,date_end,department_title,short_description',
                     help='fields separated by <,> wich you want into your Json')
 parser.add_argument('-m', '--mail', type=str,
-                    help='if is added, Aplication will try to send a pdf with all the information')
+                    help='if is added, Aplication will try to send an email with a PDF and a JSON to the <mail> provided')
 parser.add_argument('-a', '--ammount', type=int, default= 10,
                     help='if is added, Aplication will limit to <count>; if is not, the aplication will automatically limit to 10 results')
 parser.add_argument('-p', '--page', type=int, default= 1,

@@ -26,3 +26,16 @@ You can type
 ```
 to see how to use diferent flags
 ### sending mail
+To use this option you will need to put your the sender credentials into a file called <.credentials.txt>
+
+```
+  xxx xxx xxx
+  your.email@gmail.com
+```
+the first line with your mail token
+
+the second with your e-mail direction
+ 
+This section only works with a gmail account
+
+### How to generate my mail token?
